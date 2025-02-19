@@ -2,10 +2,6 @@ using UnityEngine;
 using System.Collections;
 
 // Input.GetTouch example.
-//
-// Attach to an origin based cube.
-// A screen touch moves the cube on an iPhone or iPad.
-// A second screen touch reduces the cube size.
 
 public class ExampleClass : MonoBehaviour
 {
@@ -36,7 +32,7 @@ public class ExampleClass : MonoBehaviour
                 Vector2 deltaPosition = touch.deltaPosition;
                 deltaPosition.x = deltaPosition.x / width;
                 deltaPosition.y = deltaPosition.y / height;
-                Vector3 positionChange = new Vector3(-deltaPosition.x, deltaPosition.y, 0.0f);
+                Vector3 positionChange = new Vector3(-deltaPosition.x,0.0f ,deltaPosition.y);
 
                 // Update the cube's position relative to its current position.
                 transform.localPosition += positionChange;
