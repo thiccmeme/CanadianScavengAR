@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="pot" size="1.000000 0.933077" />
+    <ImageTarget name="maple_leaf_png_clip_art-1972" size="1.000000 1.266424" />
+    <ImageTarget name="red-maple-leaf-clipart-lg" size="1.000000 1.036437" />
+    <ImageTarget name="adobeexpress-file1" size="1.000000 1.000000" />
+    <ImageTarget name="adobeexpress-file2" size="1.000000 0.903226" />
+  </Tracking>
+</QCARConfig>
